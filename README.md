@@ -29,7 +29,7 @@ you can refer all features here https://www.google.com/url?q=https%3A%2F%2Fwebs.
 The feature_calculator function takes positive and negative datasets as input, along with the feature type (e.g., amino acid composition).
 It calculates features for both datasets and combines them with class labels (positive/negative) into a single dataframe.
 
-#Machine Learning Model Building:
+# Machine Learning Model Building:
 
 The data is split into training and testing sets using an 80/20 ratio and stratified sampling to maintain class balance.
 A lazy classifier approach is used, potentially involving multiple models to be evaluated later.
